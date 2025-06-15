@@ -262,6 +262,9 @@ class Level3Manager extends BaseLevelManager {
     
     if (shaking) popMatrix();
     drawHUDDoom(getRemainingCracks(), getRemainingWallBombs(), playerHealth);
+    
+    // Dibujar minimapa específico para Level 3
+    drawMinimapImproved();
   }
   
   void drawFloorAndCeilingWithTextures() {
